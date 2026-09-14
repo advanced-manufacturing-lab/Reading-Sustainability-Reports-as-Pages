@@ -1,0 +1,35 @@
+[project]
+name = "reading-sustainability-reports-as-pages-not-text"
+version = "0.1.0"
+description = "Reading Sustainability Reports as Pages, Not Text: a visual retrieval and extraction architecture for GHG metrics"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Afonso Henrique Torres Lucas", email = "ahtl.eng22@uea.edu.br" }]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "accelerate>=1.14.0",
+    "colpali-engine",
+    "fast-plaid>=1.7.0.2110",
+    "langgraph>=1.2.11",
+    "openai>=3.7.0",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.5",
+    "pymupdf>=1.28.2",
+    "pyyaml>=6.0.3",
+    "qdrant-client>=1.19.0",
+    "torch>=2.10.0,<=2.11.0",
+    "transformers",
+]
+
+[tool.uv.sources]
+colpali-engine = { git = "https://github.com/illuin-tech/colpali" }
+transformers = { git = "https://github.com/huggingface/transformers" }
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.3",
+    "nbformat>=5.11.1",
+    "pandas>=3.0.5",
+]
+

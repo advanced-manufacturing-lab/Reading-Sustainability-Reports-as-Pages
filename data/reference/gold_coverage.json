@@ -1,0 +1,125 @@
+{
+  "full": {
+    "reports": 139,
+    "grid_cells": 5560,
+    "gold_rows": 5631,
+    "positive_rows": 644,
+    "positive_cells": 573,
+    "positive_cells_outside_grid": 12,
+    "positive_cells_multi_page": 52,
+    "positive_cells_by_scope": {
+      "1": 200,
+      "2lb": 190,
+      "2mb": 75,
+      "3": 108
+    },
+    "positive_rows_by_scope": {
+      "1": 231,
+      "2lb": 209,
+      "2mb": 84,
+      "3": 120
+    },
+    "reports_with_positives": 70,
+    "positive_rows_by_display_type": {
+      "Table": 516,
+      "Graphic": 63,
+      "Text": 25,
+      "Table/Graphic": 11,
+      "Graphic/Table": 9,
+      "Table/Text": 8,
+      "Illustration": 3,
+      "Other/Graphic": 3,
+      "Table/Illustration": 2,
+      "Text/Table": 1,
+      "Other": 1,
+      "Illustration/Graphic": 1,
+      "Illustration/Table": 1
+    }
+  },
+  "available": {
+    "reports": 105,
+    "grid_cells": 4200,
+    "gold_rows": 4246,
+    "positive_rows": 439,
+    "positive_cells": 393,
+    "positive_cells_outside_grid": 2,
+    "positive_cells_multi_page": 40,
+    "positive_cells_by_scope": {
+      "1": 139,
+      "2lb": 135,
+      "2mb": 42,
+      "3": 77
+    },
+    "positive_rows_by_scope": {
+      "1": 159,
+      "2lb": 145,
+      "2mb": 47,
+      "3": 88
+    },
+    "reports_with_positives": 49,
+    "positive_rows_by_display_type": {
+      "Table": 358,
+      "Graphic": 48,
+      "Text": 15,
+      "Table/Graphic": 8,
+      "Illustration": 3,
+      "Table/Illustration": 2,
+      "Graphic/Table": 1,
+      "Text/Table": 1,
+      "Table/Text": 1,
+      "Other": 1,
+      "Illustration/Graphic": 1
+    }
+  },
+  "excluded": {
+    "reports": 34,
+    "grid_cells": 1360,
+    "gold_rows": 1385,
+    "positive_rows": 205,
+    "positive_cells": 180,
+    "positive_cells_outside_grid": 10,
+    "positive_cells_multi_page": 12,
+    "positive_cells_by_scope": {
+      "1": 61,
+      "2lb": 55,
+      "2mb": 33,
+      "3": 31
+    },
+    "positive_rows_by_scope": {
+      "1": 72,
+      "2lb": 64,
+      "2mb": 37,
+      "3": 32
+    },
+    "reports_with_positives": 21,
+    "positive_rows_by_display_type": {
+      "Table": 158,
+      "Graphic": 15,
+      "Text": 10,
+      "Graphic/Table": 8,
+      "Table/Text": 7,
+      "Table/Graphic": 3,
+      "Other/Graphic": 3,
+      "Illustration/Table": 1
+    }
+  },
+  "excluded_reasons": {
+    "download blocked or link dead": 21,
+    "no URL in the gold standard": 1,
+    "host unreachable": 3,
+    "URL now serves an HTML page, not the PDF": 9
+  },
+  "excluded_report_years": {
+    "2017": 2,
+    "2018": 5,
+    "2019": 7,
+    "2020": 5,
+    "2021": 10,
+    "2022": 5
+  },
+  "expert_adjudicated_reports": {
+    "full": 56,
+    "available": 38,
+    "excluded": 18
+  }
+}

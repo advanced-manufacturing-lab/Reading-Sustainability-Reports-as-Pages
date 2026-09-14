@@ -1,0 +1,29 @@
+extraction:
+  col_extraction_model: "Metric-AI/ColQwen2.5-3b-multilingual-v1.0"
+  device: "mps"
+  reports_dir: "data/reports"
+  pages_dir: "data/pages"
+  pdf_image_dpi: 150
+  embed_batch_size: 1
+  top_k: 5
+
+vlm:
+  model: "gpt-5.6-luna"
+  max_tokens: 8192
+  timeout: 180
+  max_retries: 4
+  concurrency: 4
+  image_format: "jpeg"
+
+output:
+  output_dir: "data/output"
+
+qdrant:
+  url: "http://localhost:6333"
+  collection_name: "report_pages"
+  prefer_grpc: true
+  timeout: 120
+  datatype: "float16"
+  memory: "cold"
+  on_disk_payload: true
+  hnsw_m: 0

@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+.ruff_cache/
+*.egg-info
+docs/*
+
+# Virtual environments
+.venv
+
+# data
+#data/reports/*
+#!data/reports/.gitkeep
+
+temp/*
+!temp/.gitkeep
+# secrets
+.env
+
+# generated data (images and dumps are large; CSV outputs stay tracked)
+data/pages/*
+!data/pages/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+.pytest_cache/
+
+# downloaded reports are large; fetch them with scripts/download_reports.py
+data/reports/*.pdf
+
+# benchmark raw answers
+benchmarks/together_vlm/results/*/raw/
+.ipynb_checkpoints/
+
+.DS_Store

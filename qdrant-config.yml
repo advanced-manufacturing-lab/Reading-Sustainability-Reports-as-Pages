@@ -1,0 +1,40 @@
+log_level: INFO
+
+# -------------------------------------------------------------------
+# Cluster — DESABILITADO (single node)
+# -------------------------------------------------------------------
+cluster:
+  enabled: false
+
+
+# -------------------------------------------------------------------
+# Service — API e segurança
+# -------------------------------------------------------------------
+service:
+  host: 0.0.0.0
+  http_port: 6333
+  grpc_port: 6334
+
+  max_workers: 0                      # 0 = automático
+
+
+# -------------------------------------------------------------------
+# Storage
+# -------------------------------------------------------------------
+storage:
+  storage_path: /qdrant/storage
+  snapshots_path: /qdrant/snapshots
+  temp_path: /qdrant/temp
+
+  snapshots_config:
+    snapshots_storage: local
+
+
+
+# -------------------------------------------------------------------
+# Performance
+# -------------------------------------------------------------------
+performance:
+
+  optimizer_cpu_budget: 0
+  async_scorer: true
