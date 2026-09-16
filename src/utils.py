@@ -123,4 +123,5 @@ def store_from_config(config: QdrantConfig) -> QdrantEmbeddingStore:
 
     return QdrantEmbeddingStore(collection_name=config.collection_name,
                                 url=config.url,
+                                api_key=os.environ.get("QDRANT_API_KEY"),
                                 qdrant_preferences=preferences)
